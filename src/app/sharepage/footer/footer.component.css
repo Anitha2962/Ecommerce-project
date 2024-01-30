@@ -1,0 +1,21 @@
+*{
+    /* color: blue; */
+    background-image: url('../../../assets/images/home_images/home.jpg');
+
+     
+    
+}
+.fw-light{
+    color: beige;
+    font-size:28px;
+}
+.lead{
+    color: beige;
+    font-weight: normal;
+    font: size 1px;;
+}
+section{
+    display: flex;
+    justify-content:end;
+    margin-top: 1%;
+}

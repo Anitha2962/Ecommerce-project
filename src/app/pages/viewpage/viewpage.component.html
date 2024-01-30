@@ -1,0 +1,86 @@
+<!-- <div class="container">
+    <img [src]="image.imageUrl" [alt]="image.name"/>
+</div> -->
+
+
+
+<section>
+    <div class="container">
+        <div class="card">
+            <div class="container-fliud">
+                <div class="wrapper row">
+                    <div class="preview col-md-6">
+                        <div class="preview-pic tab-content">
+                            <div class="tab-pane active">
+                                <img [src]="image.imageUrl" [alt]="image.name" />
+                            </div>
+                        </div>
+                        <ul class="preview-thumbnail nav nav-tabs">
+                            <li class="active"><a data-target="#pic-1" data-toggle="tab"><img [src]="image.imageUrl"
+                                        [alt]="image.name" /></a></li>
+                            <li><a data-target="#pic-2" data-toggle="tab"><img [src]="image.imageUrl"
+                                        [alt]="image.name" /></a></li>
+                            <li><a data-target="#pic-3" data-toggle="tab"><img [src]="image.imageUrl"
+                                        [alt]="image.name" /></a></li>
+                            <li><a data-target="#pic-4" data-toggle="tab"><img [src]="image.imageUrl"
+                                        [alt]="image.name" /></a></li>
+                            <li><a data-target="#pic-5" data-toggle="tab"><img [src]="image.imageUrl"
+                                        [alt]="image.name" /></a></li>
+                        </ul>
+    
+                    </div>
+                    <div class="details col-md-6">
+                        <h3 class="product-title">Baby's Fashion Store</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <span class="review-no">41 reviews</span>
+                        </div>
+                        <span class="name">
+                            {{image.name}}
+                        </span>
+                        <h4 class="price">current price: <span>
+                                {{image.price | currency}}
+                            </span></h4>
+    
+                        <h5 class="price">old price: <span>
+                            {{image.oldprice |currency}}
+                            </span></h5>
+                     <h6 class="off">Discount: <span>
+                                {{image.off}} %OFF
+                            </span></h6>
+                
+                        <!-- <h7 class="off">Rating: <span>
+                            {{image.ratingnumber}}
+                            </span></h7> -->
+    
+                        <h5 class="sizes">sizes:
+                            <span class="size" data-toggle="tooltip" title="small">s</span>
+                            <span class="size" data-toggle="tooltip" title="medium">m</span>
+                            <span class="size" data-toggle="tooltip" title="large">l</span>
+                            <span class="size" data-toggle="tooltip" title="xtra large">xl</span>
+                        </h5>
+                        <h5 class="colors">colors:
+                            <span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
+                            <span class="color green"></span>
+                            <span class="color blue"></span>
+                        </h5>
+                        <!-- routerLink="/cartpage" -->
+                        <div class="action">
+                            <button (click)="addToCart()"  class="add-to-cart btn btn-default" type="button">add to cart</button>
+                            <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>

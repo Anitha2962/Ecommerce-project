@@ -1,0 +1,23 @@
+
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color:brown;
+    font-weight: bold;
+}
+*{
+    /* color: blue; */
+    background-image: url('../../../assets/images/home_images/header1.webp');
+
+}
+.navbar-brand{
+color:beige;
+font-weight: bolder;
+font-size: xx-large;
+}
+.nav-link{
+    color: beige;
+    font-size:larger;
+}
+i{
+    font-size:xx-large;
+}

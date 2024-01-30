@@ -1,0 +1,24 @@
+section{
+	background-image: url('../../../assets/images/home_images/banner2.jpg');
+	height: 900px;
+	background-position:center top;
+	background-size: cover;
+  }
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 10px;
+    }
+    /* .card{
+        background-image: url('../../../assets/images/home_images/sign5.jpg');
+
+
+    } */
+    .card body{
+        color: beige;
+    }
+   
